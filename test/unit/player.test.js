@@ -120,6 +120,41 @@ QUnit.test('dispose should replace playerEl with restoreEl', function(assert) {
   assert.ok(replacement.parentNode, fixture, 'Replacement node present after dispose');
 });
 
+QUnit.test('adaptiveFullscreenOrientation_ locks to landscape for landscape videos only', function(assert) {
+  const player = TestHelpers.makePlayer();
+  const originalOrientation = Object.getOwnPropertyDescriptor(window.screen, 'orientation');
+  const lockSpy = sinon.stub().returns(Promise.resolve());
+
+  Object.defineProperty(window.screen, 'orientation', {
+    configurable: true,
+    value: {
+      lock: lockSpy
+    }
+  });
+
+  sinon.stub(player, 'videoHeight').returns(360);
+  sinon.stub(player, 'videoWidth').returns(640);
+
+  player.adaptiveFullscreenOrientation_(player);
+
+  assert.strictEqual(lockSpy.callCount, 1, 'locks orientation for landscape videos');
+  assert.strictEqual(lockSpy.firstCall.args[0], 'landscape', 'locks to landscape orientation');
+
+  player.videoHeight.returns(640);
+  player.videoWidth.returns(360);
+  player.adaptiveFullscreenOrientation_(player);
+
+  assert.strictEqual(lockSpy.callCount, 1, 'does not lock orientation for portrait videos');
+
+  if (originalOrientation) {
+    Object.defineProperty(window.screen, 'orientation', originalOrientation);
+  } else {
+    delete window.screen.orientation;
+  }
+
+  player.dispose();
+});
+
 // technically, all uses of videojs.options should be replaced with
 // Player.prototype.options_ in this file and a equivalent test using
 // videojs.options should be made in video.test.js. Keeping this here
