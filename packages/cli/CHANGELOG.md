@@ -1,5 +1,45 @@
 # Changelog
 
+## [11.0.0](https://github.com/Codinplus31/video.js/compare/@videojs/cli@10.3.0...@videojs/cli@11.0.0) (2026-11-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* **packages:** playback adapters packages ([#2567](https://github.com/Codinplus31/video.js/issues/2567))
+
+### Features
+
+* add adaptive fullscreen orientation ([6ece17f](https://github.com/Codinplus31/video.js/commit/6ece17fc5fac6b90200ec68d41139b24e6f3c2cf))
+* **cli:** add skin create to start a skin project ([#9500](https://github.com/Codinplus31/video.js/issues/9500)) ([c1c3f76](https://github.com/Codinplus31/video.js/commit/c1c3f76bff9b3cade9209a35b2aea38b259447eb))
+* **cli:** deploy skin workbenches to vercel, netlify, or cloudflare pages ([#9502](https://github.com/Codinplus31/video.js/issues/9502)) ([e1be8a5](https://github.com/Codinplus31/video.js/commit/e1be8a5232a111910c8284ae58c749557c9389f0))
+* **cli:** point skin projects at the videojs-skin agent skill ([#9518](https://github.com/Codinplus31/video.js/issues/9518)) ([87bb1c2](https://github.com/Codinplus31/video.js/commit/87bb1c2ae2ccc81afea9c297d1c807d75475209c))
+* **cli:** preview skins in a sandbox-style workbench ([#9501](https://github.com/Codinplus31/video.js/issues/9501)) ([2228a99](https://github.com/Codinplus31/video.js/commit/2228a99dfbc478306e2b96a5cf2443caea579d45))
+* **cli:** route installation docs by method ([#2877](https://github.com/Codinplus31/video.js/issues/2877)) ([b5a2f33](https://github.com/Codinplus31/video.js/commit/b5a2f331402ed3f2f30fbfb2c477f764bab0937e))
+* **installation:** add versioned agent instructions ([#2948](https://github.com/Codinplus31/video.js/issues/2948)) ([a602f22](https://github.com/Codinplus31/video.js/commit/a602f220aedf9c2800983daade6ca298ada007ab))
+* **packages:** release Video.js 10.0.0 as stable ([#3058](https://github.com/Codinplus31/video.js/issues/3058)) ([37477fc](https://github.com/Codinplus31/video.js/commit/37477fc187f36fc2ab3cbc0db7c1b2d3fc6bcca9))
+* **site:** redesign docs site and reorganize doc sections ([#2645](https://github.com/Codinplus31/video.js/issues/2645)) ([db116f7](https://github.com/Codinplus31/video.js/commit/db116f7bb98608aca43549a1fed806ad911904e6))
+* **site:** reorganize installation guides ([#2848](https://github.com/Codinplus31/video.js/issues/2848)) ([8aff36d](https://github.com/Codinplus31/video.js/commit/8aff36dc8fb3eb73b6a393727fe76714543c30b5))
+
+
+### Bug Fixes
+
+* **installation:** default a plain HTML page to CDN scripts ([#2983](https://github.com/Codinplus31/video.js/issues/2983)) ([f91a8dd](https://github.com/Codinplus31/video.js/commit/f91a8dd0122e6288177409d227a3b6dee4492739))
+* **packages:** name Video.js 10 in npm descriptions and keywords ([#2995](https://github.com/Codinplus31/video.js/issues/2995)) ([8fda9a3](https://github.com/Codinplus31/video.js/commit/8fda9a36bede5cf92d446e25e56a96625cd60bc9))
+
+
+### Code Refactoring
+
+* **packages:** playback adapters packages ([#2567](https://github.com/Codinplus31/video.js/issues/2567)) ([12b08e3](https://github.com/Codinplus31/video.js/commit/12b08e3b0c3c07e5948f74a8cf6fce96c8b8eba7))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * @videojs/core bumped to 11.0.0
+    * @videojs/installation bumped to 11.0.0
+    * @videojs/utils bumped to 11.0.0
+
 ## [10.3.0](https://github.com/videojs/video.js/compare/@videojs/cli@10.2.0...@videojs/cli@10.3.0) (2026-11-03)
 
 

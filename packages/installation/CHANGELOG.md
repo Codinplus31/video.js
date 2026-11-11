@@ -1,5 +1,48 @@
 # Changelog
 
+## [11.0.0](https://github.com/Codinplus31/video.js/compare/@videojs/installation@10.3.0...@videojs/installation@11.0.0) (2026-11-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* **packages:** rename the minimal skin to neutral ([#3092](https://github.com/Codinplus31/video.js/issues/3092))
+
+### Features
+
+* add adaptive fullscreen orientation ([6ece17f](https://github.com/Codinplus31/video.js/commit/6ece17fc5fac6b90200ec68d41139b24e6f3c2cf))
+* **cli:** add skin create to start a skin project ([#9500](https://github.com/Codinplus31/video.js/issues/9500)) ([c1c3f76](https://github.com/Codinplus31/video.js/commit/c1c3f76bff9b3cade9209a35b2aea38b259447eb))
+* **cli:** preview skins in a sandbox-style workbench ([#9501](https://github.com/Codinplus31/video.js/issues/9501)) ([2228a99](https://github.com/Codinplus31/video.js/commit/2228a99dfbc478306e2b96a5cf2443caea579d45))
+* Dailymotion video provider ([#9512](https://github.com/Codinplus31/video.js/issues/9512)) ([6f24264](https://github.com/Codinplus31/video.js/commit/6f24264951e8f9d5489cccfc9de6609e6a72bef3))
+* **installation:** add versioned agent instructions ([#2948](https://github.com/Codinplus31/video.js/issues/2948)) ([a602f22](https://github.com/Codinplus31/video.js/commit/a602f220aedf9c2800983daade6ca298ada007ab))
+* **installation:** link native media fallback to videojs.org/help ([#9381](https://github.com/Codinplus31/video.js/issues/9381)) ([2c90308](https://github.com/Codinplus31/video.js/commit/2c903082e02f55d54fe4a48efa710b11778f29d3))
+* **media:** add resolveAdapterType and resolveMimeType ([#3024](https://github.com/Codinplus31/video.js/issues/3024)) ([a77010c](https://github.com/Codinplus31/video.js/commit/a77010c77ff4971a9f7f1c43d5c24c20ee67d505))
+* **mixcloud-audio:** add the Mixcloud audio provider ([#9649](https://github.com/Codinplus31/video.js/issues/9649)) ([f1b1354](https://github.com/Codinplus31/video.js/commit/f1b135497252fa5b276688bfe9dfec403f77345b))
+* **playerjs-video:** add player.js embed media ([#9247](https://github.com/Codinplus31/video.js/issues/9247)) ([b56d02d](https://github.com/Codinplus31/video.js/commit/b56d02d33bdda01f1aaec1c5ada893002932ce5f))
+* **skin:** add compat skin ([#3026](https://github.com/Codinplus31/video.js/issues/3026)) ([5d419de](https://github.com/Codinplus31/video.js/commit/5d419de6980310364c36ffe6bc131573ac8b785d))
+* **skin:** add scaffold skin ([#9251](https://github.com/Codinplus31/video.js/issues/9251)) ([c39479b](https://github.com/Codinplus31/video.js/commit/c39479baf04c906d8fe732bf1e93a5483c6b1cc4))
+* SoundCloud Audio provider ([#9524](https://github.com/Codinplus31/video.js/issues/9524)) ([fdeaafa](https://github.com/Codinplus31/video.js/commit/fdeaafa85855c5b65782aa2afe6b320ddec6bc92))
+* **video.js:** publish video.js to npm under next ([#9477](https://github.com/Codinplus31/video.js/issues/9477)) ([79a12d2](https://github.com/Codinplus31/video.js/commit/79a12d2e44fdca98e53aa86f4e03d0781c527dfc))
+
+
+### Bug Fixes
+
+* **installation:** default a plain HTML page to CDN scripts ([#2983](https://github.com/Codinplus31/video.js/issues/2983)) ([f91a8dd](https://github.com/Codinplus31/video.js/commit/f91a8dd0122e6288177409d227a3b6dee4492739))
+* **installation:** pass Mux URLs to React Mux media as a structured source ([#9605](https://github.com/Codinplus31/video.js/issues/9605)) ([2e0db03](https://github.com/Codinplus31/video.js/commit/2e0db0348c13b42207032b7724046fa97dfc6974))
+
+
+### Code Refactoring
+
+* **packages:** rename the minimal skin to neutral ([#3092](https://github.com/Codinplus31/video.js/issues/3092)) ([1d1eafc](https://github.com/Codinplus31/video.js/commit/1d1eafc022f78135a292035bc58fdb4befb6401e))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @videojs/utils bumped to 11.0.0
+  * devDependencies
+    * @videojs/media bumped to 11.0.0
+
 ## [10.3.0](https://github.com/videojs/video.js/compare/@videojs/installation@10.2.0...@videojs/installation@10.3.0) (2026-11-03)
 
 

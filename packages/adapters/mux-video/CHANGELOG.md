@@ -1,5 +1,36 @@
 # Changelog
 
+## [11.0.0](https://github.com/Codinplus31/video.js/compare/@videojs/mux-video@10.3.0...@videojs/mux-video@11.0.0) (2026-11-11)
+
+
+### Features
+
+* add adaptive fullscreen orientation ([6ece17f](https://github.com/Codinplus31/video.js/commit/6ece17fc5fac6b90200ec68d41139b24e6f3c2cf))
+* **installation:** add versioned agent instructions ([#2948](https://github.com/Codinplus31/video.js/issues/2948)) ([a602f22](https://github.com/Codinplus31/video.js/commit/a602f220aedf9c2800983daade6ca298ada007ab))
+* **mux-video:** load the asset title from the mux metadata api ([#2726](https://github.com/Codinplus31/video.js/issues/2726)) ([b971f68](https://github.com/Codinplus31/video.js/commit/b971f6872e26ca3d4f5da2435874c76b62a9c42d))
+* **spf:** add EME-based DRM support to the HLS engine ([#2291](https://github.com/Codinplus31/video.js/issues/2291)) ([fd6785e](https://github.com/Codinplus31/video.js/commit/fd6785e00df4ed705ed4c9479fcfdfbaf221f7e1))
+
+
+### Bug Fixes
+
+* **hlsjs-video:** update hls.js to 1.7.3 ([#9645](https://github.com/Codinplus31/video.js/issues/9645)) ([8989194](https://github.com/Codinplus31/video.js/commit/898919402859e267bae935c1c77baf8c949a85ff))
+* **mux-video:** parse mux stream urls without the .m3u8 extension ([#3143](https://github.com/Codinplus31/video.js/issues/3143)) ([ad7f2a0](https://github.com/Codinplus31/video.js/commit/ad7f2a03f4a61635ea55fb100ea6f13e7afdb8eb))
+
+
+### Performance Improvements
+
+* **site:** faster docs dev server start ([#2698](https://github.com/Codinplus31/video.js/issues/2698)) ([33d3887](https://github.com/Codinplus31/video.js/commit/33d38873ed5337a5695eaa426a5ebfbea61356d2))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @videojs/hlsjs-video bumped to 11.0.0
+    * @videojs/media bumped to 11.0.0
+    * @videojs/spf bumped to 11.0.0
+    * @videojs/utils bumped to 11.0.0
+
 ## [10.3.0](https://github.com/videojs/video.js/compare/@videojs/mux-video@10.2.0...@videojs/mux-video@10.3.0) (2026-11-03)
 
 

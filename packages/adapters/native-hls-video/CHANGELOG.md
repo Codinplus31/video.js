@@ -1,5 +1,34 @@
 # Changelog
 
+## [11.0.0](https://github.com/Codinplus31/video.js/compare/@videojs/native-hls-video@10.3.0...@videojs/native-hls-video@11.0.0) (2026-11-11)
+
+
+### Features
+
+* add adaptive fullscreen orientation ([6ece17f](https://github.com/Codinplus31/video.js/commit/6ece17fc5fac6b90200ec68d41139b24e6f3c2cf))
+* **mux-data:** report framework and engine in the player software name ([#9577](https://github.com/Codinplus31/video.js/issues/9577)) ([d84b573](https://github.com/Codinplus31/video.js/commit/d84b573df447824aded5590b255bcc70e372472a))
+* **packages:** support hls json chapters in hls.js and native hls ([#2993](https://github.com/Codinplus31/video.js/issues/2993)) ([511e8a6](https://github.com/Codinplus31/video.js/commit/511e8a69db8fb111d2d41f9e55910a243b5ef6ed))
+
+
+### Bug Fixes
+
+* **native-hls:** honour SERVER-CONTROL hold-back when deriving the live edge ([#3027](https://github.com/Codinplus31/video.js/issues/3027)) ([56fc71e](https://github.com/Codinplus31/video.js/commit/56fc71e087937dcf99075288f4081cdbb47632d6))
+* **site:** improve markdown for agents ([#2883](https://github.com/Codinplus31/video.js/issues/2883)) ([d5c8e3c](https://github.com/Codinplus31/video.js/commit/d5c8e3cde77cbbe74ecc6878dbd7862db8628bfa))
+
+
+### Performance Improvements
+
+* **site:** faster docs dev server start ([#2698](https://github.com/Codinplus31/video.js/issues/2698)) ([33d3887](https://github.com/Codinplus31/video.js/commit/33d38873ed5337a5695eaa426a5ebfbea61356d2))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @videojs/media bumped to 11.0.0
+    * @videojs/spf bumped to 11.0.0
+    * @videojs/utils bumped to 11.0.0
+
 ## [10.3.0](https://github.com/videojs/video.js/compare/@videojs/native-hls-video@10.2.0...@videojs/native-hls-video@10.3.0) (2026-11-03)
 
 

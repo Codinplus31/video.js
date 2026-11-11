@@ -1,5 +1,27 @@
 # Changelog
 
+## [11.0.0](https://github.com/Codinplus31/video.js/compare/@videojs/soundcloud-audio@10.3.0...@videojs/soundcloud-audio@11.0.0) (2026-11-11)
+
+
+### Features
+
+* add adaptive fullscreen orientation ([6ece17f](https://github.com/Codinplus31/video.js/commit/6ece17fc5fac6b90200ec68d41139b24e6f3c2cf))
+* SoundCloud Audio provider ([#9524](https://github.com/Codinplus31/video.js/issues/9524)) ([fdeaafa](https://github.com/Codinplus31/video.js/commit/fdeaafa85855c5b65782aa2afe6b320ddec6bc92))
+
+
+### Bug Fixes
+
+* **media:** recognize empty placeholders from another package copy ([#9667](https://github.com/Codinplus31/video.js/issues/9667)) ([2c88e68](https://github.com/Codinplus31/video.js/commit/2c88e684c8ecd2efe5aa67905daf1b1bc4dbb232))
+* **packages:** fill the buffered bar for embed adapters ([#9679](https://github.com/Codinplus31/video.js/issues/9679)) ([2abaaef](https://github.com/Codinplus31/video.js/commit/2abaaef6cb6970e8ab572dc11731b0fa92afe087))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @videojs/media bumped to 11.0.0
+    * @videojs/utils bumped to 11.0.0
+
 ## [10.3.0](https://github.com/videojs/video.js/compare/@videojs/soundcloud-audio@10.2.0...@videojs/soundcloud-audio@10.3.0) (2026-11-03)
 
 

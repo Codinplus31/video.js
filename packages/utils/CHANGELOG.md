@@ -1,5 +1,45 @@
 # Changelog
 
+## [11.0.0](https://github.com/Codinplus31/video.js/compare/@videojs/utils@10.3.0...@videojs/utils@11.0.0) (2026-11-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* **react,html:** make every stable type importable from the framework packages ([#3082](https://github.com/Codinplus31/video.js/issues/3082))
+* **media:** tidy text track state ([#3057](https://github.com/Codinplus31/video.js/issues/3057))
+* **html:** make thumbnail images composable ([#2572](https://github.com/Codinplus31/video.js/issues/2572))
+
+### Features
+
+* add adaptive fullscreen orientation ([6ece17f](https://github.com/Codinplus31/video.js/commit/6ece17fc5fac6b90200ec68d41139b24e6f3c2cf))
+* **html:** make thumbnail images composable ([#2572](https://github.com/Codinplus31/video.js/issues/2572)) ([6dfdce5](https://github.com/Codinplus31/video.js/commit/6dfdce50a8717573268841dbc6ed8c2b02b9108d))
+* **media:** add removable text tracks for DOM media ([#9616](https://github.com/Codinplus31/video.js/issues/9616)) ([274cc73](https://github.com/Codinplus31/video.js/commit/274cc73d441ba6ec8b5610d6d028376153cc3d77))
+* **packages:** release Video.js 10.0.0 as stable ([#3058](https://github.com/Codinplus31/video.js/issues/3058)) ([37477fc](https://github.com/Codinplus31/video.js/commit/37477fc187f36fc2ab3cbc0db7c1b2d3fc6bcca9))
+* **skin:** generate framework skins from registry ([#2545](https://github.com/Codinplus31/video.js/issues/2545)) ([60c7b0b](https://github.com/Codinplus31/video.js/commit/60c7b0ba5441b4463e4d04f6a71660ae24eeb345))
+* **spf:** add EME-based DRM support to the HLS engine ([#2291](https://github.com/Codinplus31/video.js/issues/2291)) ([fd6785e](https://github.com/Codinplus31/video.js/commit/fd6785e00df4ed705ed4c9479fcfdfbaf221f7e1))
+
+
+### Bug Fixes
+
+* **core:** hide open popovers before entering fullscreen ([#9627](https://github.com/Codinplus31/video.js/issues/9627)) ([1e2291c](https://github.com/Codinplus31/video.js/commit/1e2291c7da0839471e10422a066e56480609a925))
+* **core:** keep controls visible when seeking in Safari 16 ([#2962](https://github.com/Codinplus31/video.js/issues/2962)) ([2f5cf27](https://github.com/Codinplus31/video.js/commit/2f5cf2765315199e45623f5760b20d9a52acf4db))
+* **core:** position and hide popups without the Popover API ([#2963](https://github.com/Codinplus31/video.js/issues/2963)) ([b0e24df](https://github.com/Codinplus31/video.js/commit/b0e24dfcbb2738dfdf0b6250880b42e5f9dd0aeb))
+* **element:** inherit keep-alive from shadow hosts ([#9525](https://github.com/Codinplus31/video.js/issues/9525)) ([9574e5d](https://github.com/Codinplus31/video.js/commit/9574e5d9b1fd9ae2f8298fdf06cf322b6bb47665))
+* **packages:** guard Intl.ListFormat and AbortSignal.any ([#2964](https://github.com/Codinplus31/video.js/issues/2964)) ([14aceee](https://github.com/Codinplus31/video.js/commit/14aceee2c813b65076bcbcf9613467ae3a8fe5de))
+* **skin:** misc styles fixes ([#2558](https://github.com/Codinplus31/video.js/issues/2558)) ([cd963b7](https://github.com/Codinplus31/video.js/commit/cd963b7f2cc7f4dddf225aa08afa04908ec353e7))
+* **utils:** detect constructable stylesheets before creating one ([#2967](https://github.com/Codinplus31/video.js/issues/2967)) ([4c4c5d4](https://github.com/Codinplus31/video.js/commit/4c4c5d49a966f940a05c6b4653c5ab2c2f490860))
+
+
+### Performance Improvements
+
+* **site:** faster docs dev server start ([#2698](https://github.com/Codinplus31/video.js/issues/2698)) ([33d3887](https://github.com/Codinplus31/video.js/commit/33d38873ed5337a5695eaa426a5ebfbea61356d2))
+
+
+### Code Refactoring
+
+* **media:** tidy text track state ([#3057](https://github.com/Codinplus31/video.js/issues/3057)) ([614b77d](https://github.com/Codinplus31/video.js/commit/614b77dce7d9a3ed60baa1b0e2af854c8c8d865b))
+* **react,html:** make every stable type importable from the framework packages ([#3082](https://github.com/Codinplus31/video.js/issues/3082)) ([53e5ce9](https://github.com/Codinplus31/video.js/commit/53e5ce9a5b78d123f77f843a81fad3ac5d82f8f1))
+
 ## [10.3.0](https://github.com/videojs/video.js/compare/@videojs/utils@10.2.0...@videojs/utils@10.3.0) (2026-11-03)
 
 

@@ -1,5 +1,31 @@
 # Changelog
 
+## [11.0.0](https://github.com/Codinplus31/video.js/compare/@videojs/shaka-video@10.3.0...@videojs/shaka-video@11.0.0) (2026-11-11)
+
+
+### Features
+
+* add adaptive fullscreen orientation ([6ece17f](https://github.com/Codinplus31/video.js/commit/6ece17fc5fac6b90200ec68d41139b24e6f3c2cf))
+* **mux-data:** report framework and engine in the player software name ([#9577](https://github.com/Codinplus31/video.js/issues/9577)) ([d84b573](https://github.com/Codinplus31/video.js/commit/d84b573df447824aded5590b255bcc70e372472a))
+
+
+### Bug Fixes
+
+* **hlsjs-video:** read live edge start from hls.js live sync position ([#9409](https://github.com/Codinplus31/video.js/issues/9409)) ([4676472](https://github.com/Codinplus31/video.js/commit/4676472d9136580a5d45e0e8d2929a7e124ad122))
+
+
+### Performance Improvements
+
+* **site:** faster docs dev server start ([#2698](https://github.com/Codinplus31/video.js/issues/2698)) ([33d3887](https://github.com/Codinplus31/video.js/commit/33d38873ed5337a5695eaa426a5ebfbea61356d2))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @videojs/media bumped to 11.0.0
+    * @videojs/utils bumped to 11.0.0
+
 ## [10.3.0](https://github.com/videojs/video.js/compare/@videojs/shaka-video@10.2.0...@videojs/shaka-video@10.3.0) (2026-11-03)
 
 

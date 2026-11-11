@@ -1,5 +1,35 @@
 # Changelog
 
+## [11.0.0](https://github.com/Codinplus31/video.js/compare/@videojs/store@10.3.0...@videojs/store@11.0.0) (2026-11-11)
+
+
+### Features
+
+* add adaptive fullscreen orientation ([6ece17f](https://github.com/Codinplus31/video.js/commit/6ece17fc5fac6b90200ec68d41139b24e6f3c2cf))
+* **packages:** release Video.js 10.0.0 as stable ([#3058](https://github.com/Codinplus31/video.js/issues/3058)) ([37477fc](https://github.com/Codinplus31/video.js/commit/37477fc187f36fc2ab3cbc0db7c1b2d3fc6bcca9))
+
+
+### Bug Fixes
+
+* **react:** declare client boundaries per module ([#3079](https://github.com/Codinplus31/video.js/issues/3079)) ([39ff910](https://github.com/Codinplus31/video.js/commit/39ff910d50567037850ba6f11c2c8883dd7974bb))
+* **site:** improve markdown for agents ([#2883](https://github.com/Codinplus31/video.js/issues/2883)) ([d5c8e3c](https://github.com/Codinplus31/video.js/commit/d5c8e3cde77cbbe74ecc6878dbd7862db8628bfa))
+
+
+### Performance Improvements
+
+* **site:** faster docs dev server start ([#2698](https://github.com/Codinplus31/video.js/issues/2698)) ([33d3887](https://github.com/Codinplus31/video.js/commit/33d38873ed5337a5695eaa426a5ebfbea61356d2))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @videojs/utils bumped to 11.0.0
+  * devDependencies
+    * @videojs/element bumped to 11.0.0
+  * peerDependencies
+    * @videojs/element bumped to 11.0.0
+
 ## [10.3.0](https://github.com/videojs/video.js/compare/@videojs/store@10.2.0...@videojs/store@10.3.0) (2026-11-03)
 
 

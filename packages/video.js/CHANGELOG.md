@@ -1,5 +1,21 @@
 # Changelog
 
+## [11.0.0](https://github.com/Codinplus31/video.js/compare/video.js@10.3.0...video.js@11.0.0) (2026-11-11)
+
+
+### Features
+
+* add adaptive fullscreen orientation ([6ece17f](https://github.com/Codinplus31/video.js/commit/6ece17fc5fac6b90200ec68d41139b24e6f3c2cf))
+* **site:** generate the videojs.org/errors pages from the video.js registry ([#2752](https://github.com/Codinplus31/video.js/issues/2752)) ([ba676c3](https://github.com/Codinplus31/video.js/commit/ba676c3efc3566cfe005a8ae98a082fd93298fb0))
+* **video.js:** add the video.js package with coded v8 stubs ([#2735](https://github.com/Codinplus31/video.js/issues/2735)) ([e0efd2e](https://github.com/Codinplus31/video.js/commit/e0efd2e56256348c776f7db923fb06ceeca25071))
+* **video.js:** publish video.js to npm under next ([#9477](https://github.com/Codinplus31/video.js/issues/9477)) ([79a12d2](https://github.com/Codinplus31/video.js/commit/79a12d2e44fdca98e53aa86f4e03d0781c527dfc))
+* **video.js:** route installs to the framework packages ([#9258](https://github.com/Codinplus31/video.js/issues/9258)) ([875da58](https://github.com/Codinplus31/video.js/commit/875da5821ad17f7b9d28813be3864ca8682f640e))
+
+
+### Bug Fixes
+
+* **site:** improve markdown for agents ([#2883](https://github.com/Codinplus31/video.js/issues/2883)) ([d5c8e3c](https://github.com/Codinplus31/video.js/commit/d5c8e3cde77cbbe74ecc6878dbd7862db8628bfa))
+
 ## [10.3.0](https://github.com/videojs/video.js/compare/video.js@10.2.0...video.js@10.3.0) (2026-11-03)
 
 

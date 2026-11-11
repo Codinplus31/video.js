@@ -1,5 +1,58 @@
 # Changelog
 
+## [11.0.0](https://github.com/Codinplus31/video.js/compare/@videojs/spf@10.3.0...@videojs/spf@11.0.0) (2026-11-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* **packages:** adapter renaming ([#2602](https://github.com/Codinplus31/video.js/issues/2602))
+* **packages:** playback adapters packages ([#2567](https://github.com/Codinplus31/video.js/issues/2567))
+
+### Features
+
+* add adaptive fullscreen orientation ([6ece17f](https://github.com/Codinplus31/video.js/commit/6ece17fc5fac6b90200ec68d41139b24e6f3c2cf))
+* **mux-data:** report framework and engine in the player software name ([#9577](https://github.com/Codinplus31/video.js/issues/9577)) ([d84b573](https://github.com/Codinplus31/video.js/commit/d84b573df447824aded5590b255bcc70e372472a))
+* **packages:** release Video.js 10.0.0 as stable ([#3058](https://github.com/Codinplus31/video.js/issues/3058)) ([37477fc](https://github.com/Codinplus31/video.js/commit/37477fc187f36fc2ab3cbc0db7c1b2d3fc6bcca9))
+* **packages:** support hls json chapters in hls.js and native hls ([#2993](https://github.com/Codinplus31/video.js/issues/2993)) ([511e8a6](https://github.com/Codinplus31/video.js/commit/511e8a69db8fb111d2d41f9e55910a243b5ef6ed))
+* **spf:** add EME-based DRM support to the HLS engine ([#2291](https://github.com/Codinplus31/video.js/issues/2291)) ([fd6785e](https://github.com/Codinplus31/video.js/commit/fd6785e00df4ed705ed4c9479fcfdfbaf221f7e1))
+* **spf:** compose the HLS engines from features ([#9395](https://github.com/Codinplus31/video.js/issues/9395)) ([76620b1](https://github.com/Codinplus31/video.js/commit/76620b1da9e8ace8a8fd6d223f8a0bc2bc7c5bae))
+* **spf:** send credentials with hls requests for crossorigin="use-credentials" ([#2870](https://github.com/Codinplus31/video.js/issues/2870)) ([897901b](https://github.com/Codinplus31/video.js/commit/897901b88359dca0dc3e59fcecd766cb59f8fe24))
+* **spf:** support apple json chapters from ext-x-session-data ([#2737](https://github.com/Codinplus31/video.js/issues/2737)) ([f3c2caf](https://github.com/Codinplus31/video.js/commit/f3c2caf5abcbe78e7f2d93f6a2603ef4f20741ab))
+
+
+### Bug Fixes
+
+* **mux-data:** monitor the HLS background video ([#9581](https://github.com/Codinplus31/video.js/issues/9581)) ([c15ea19](https://github.com/Codinplus31/video.js/commit/c15ea192787971c5a3e5f3dafe30302041cd5ccc))
+* **packages:** guard Intl.ListFormat and AbortSignal.any ([#2964](https://github.com/Codinplus31/video.js/issues/2964)) ([14aceee](https://github.com/Codinplus31/video.js/commit/14aceee2c813b65076bcbcf9613467ae3a8fe5de))
+* **site:** improve markdown for agents ([#2883](https://github.com/Codinplus31/video.js/issues/2883)) ([d5c8e3c](https://github.com/Codinplus31/video.js/commit/d5c8e3cde77cbbe74ecc6878dbd7862db8628bfa))
+* **spf:** auto-select DEFAULT and AUTOSELECT subtitles in hls-video ([#9681](https://github.com/Codinplus31/video.js/issues/9681)) ([9b4973a](https://github.com/Codinplus31/video.js/commit/9b4973ab34542675c7dc250469add0c7cd6ba939))
+* **spf:** block segment loading under DRM regardless of composition order ([#9394](https://github.com/Codinplus31/video.js/issues/9394)) ([3f69079](https://github.com/Codinplus31/video.js/commit/3f69079be001eed6ea7ab7e1dd8a2183b4264444))
+* **spf:** load webvtt segments with the request credentials mode ([#9682](https://github.com/Codinplus31/video.js/issues/9682)) ([e0fb911](https://github.com/Codinplus31/video.js/commit/e0fb911bbf7fbc9fb7ade631fcf2eb48fb96c9cd))
+* **spf:** merge audio rendition into audio-only variant sharing its uri ([#9688](https://github.com/Codinplus31/video.js/issues/9688)) ([c4bfb3c](https://github.com/Codinplus31/video.js/commit/c4bfb3cdd2cecdd4ffaed610006fa033b9e0a5bd))
+* **spf:** never adopt the UA-default preload on attach ([#2534](https://github.com/Codinplus31/video.js/issues/2534)) ([5ed7e4c](https://github.com/Codinplus31/video.js/commit/5ed7e4c29b63432049c4b15d934327793c796057))
+* **spf:** probe codec support through ManagedMediaSource where classic MSE is absent ([#2564](https://github.com/Codinplus31/video.js/issues/2564)) ([4161db6](https://github.com/Codinplus31/video.js/commit/4161db6d0905ce4e8664b8edc841d60ecf10b302))
+* **spf:** render reselected text tracks in hls-video on safari ([#9685](https://github.com/Codinplus31/video.js/issues/9685)) ([b3f6d05](https://github.com/Codinplus31/video.js/commit/b3f6d0520696e3d74a2a2aff33df8996b5db6ee8))
+* **spf:** resolve a relative source URL in the HLS adapters ([#9587](https://github.com/Codinplus31/video.js/issues/9587)) ([716c660](https://github.com/Codinplus31/video.js/commit/716c660fa71a3b93ebcd921585af22e400ac6acb))
+
+
+### Performance Improvements
+
+* **site:** faster docs dev server start ([#2698](https://github.com/Codinplus31/video.js/issues/2698)) ([33d3887](https://github.com/Codinplus31/video.js/commit/33d38873ed5337a5695eaa426a5ebfbea61356d2))
+
+
+### Code Refactoring
+
+* **packages:** adapter renaming ([#2602](https://github.com/Codinplus31/video.js/issues/2602)) ([b964889](https://github.com/Codinplus31/video.js/commit/b964889fdf68a4cdaf4686ef96bb0e8c8f2f4abd))
+* **packages:** playback adapters packages ([#2567](https://github.com/Codinplus31/video.js/issues/2567)) ([12b08e3](https://github.com/Codinplus31/video.js/commit/12b08e3b0c3c07e5948f74a8cf6fce96c8b8eba7))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @videojs/media bumped to 11.0.0
+    * @videojs/utils bumped to 11.0.0
+
 ## [10.3.0](https://github.com/videojs/video.js/compare/@videojs/spf@10.2.0...@videojs/spf@10.3.0) (2026-11-03)
 
 

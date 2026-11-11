@@ -1,5 +1,32 @@
 # Changelog
 
+## [11.0.0](https://github.com/Codinplus31/video.js/compare/@videojs/element@10.3.0...@videojs/element@11.0.0) (2026-11-11)
+
+
+### Features
+
+* add adaptive fullscreen orientation ([6ece17f](https://github.com/Codinplus31/video.js/commit/6ece17fc5fac6b90200ec68d41139b24e6f3c2cf))
+* **packages:** release Video.js 10.0.0 as stable ([#3058](https://github.com/Codinplus31/video.js/issues/3058)) ([37477fc](https://github.com/Codinplus31/video.js/commit/37477fc187f36fc2ab3cbc0db7c1b2d3fc6bcca9))
+* **skin:** add compat skin ([#3026](https://github.com/Codinplus31/video.js/issues/3026)) ([5d419de](https://github.com/Codinplus31/video.js/commit/5d419de6980310364c36ffe6bc131573ac8b785d))
+
+
+### Bug Fixes
+
+* **element:** deliver context to consumers connected before their provider ([#9663](https://github.com/Codinplus31/video.js/issues/9663)) ([f61f17e](https://github.com/Codinplus31/video.js/commit/f61f17e8fd0961ed125500df1a21ecc5c9c5c084))
+* **element:** inherit keep-alive from shadow hosts ([#9525](https://github.com/Codinplus31/video.js/issues/9525)) ([9574e5d](https://github.com/Codinplus31/video.js/commit/9574e5d9b1fd9ae2f8298fdf06cf322b6bb47665))
+
+
+### Performance Improvements
+
+* **site:** faster docs dev server start ([#2698](https://github.com/Codinplus31/video.js/issues/2698)) ([33d3887](https://github.com/Codinplus31/video.js/commit/33d38873ed5337a5695eaa426a5ebfbea61356d2))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @videojs/utils bumped to 11.0.0
+
 ## [10.3.0](https://github.com/videojs/video.js/compare/@videojs/element@10.2.0...@videojs/element@10.3.0) (2026-11-03)
 
 

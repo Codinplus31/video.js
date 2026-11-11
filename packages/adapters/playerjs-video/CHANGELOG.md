@@ -1,5 +1,28 @@
 # Changelog
 
+## [11.0.0](https://github.com/Codinplus31/video.js/compare/@videojs/playerjs-video@10.3.0...@videojs/playerjs-video@11.0.0) (2026-11-11)
+
+
+### Features
+
+* add adaptive fullscreen orientation ([6ece17f](https://github.com/Codinplus31/video.js/commit/6ece17fc5fac6b90200ec68d41139b24e6f3c2cf))
+* **mux-data:** report framework and engine in the player software name ([#9577](https://github.com/Codinplus31/video.js/issues/9577)) ([d84b573](https://github.com/Codinplus31/video.js/commit/d84b573df447824aded5590b255bcc70e372472a))
+* **playerjs-video:** add player.js embed media ([#9247](https://github.com/Codinplus31/video.js/issues/9247)) ([b56d02d](https://github.com/Codinplus31/video.js/commit/b56d02d33bdda01f1aaec1c5ada893002932ce5f))
+
+
+### Bug Fixes
+
+* **media:** recognize empty placeholders from another package copy ([#9667](https://github.com/Codinplus31/video.js/issues/9667)) ([2c88e68](https://github.com/Codinplus31/video.js/commit/2c88e684c8ecd2efe5aa67905daf1b1bc4dbb232))
+* **packages:** fill the buffered bar for embed adapters ([#9679](https://github.com/Codinplus31/video.js/issues/9679)) ([2abaaef](https://github.com/Codinplus31/video.js/commit/2abaaef6cb6970e8ab572dc11731b0fa92afe087))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @videojs/media bumped to 11.0.0
+    * @videojs/utils bumped to 11.0.0
+
 ## [10.3.0](https://github.com/videojs/video.js/compare/@videojs/playerjs-video@10.2.0...@videojs/playerjs-video@10.3.0) (2026-11-03)
 
 
