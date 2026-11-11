@@ -1,5 +1,112 @@
 # Changelog
 
+## [11.0.0](https://github.com/Codinplus31/video.js/compare/@videojs/skins@10.3.0...@videojs/skins@11.0.0) (2026-11-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* **packages:** rename the minimal skin to neutral ([#3092](https://github.com/Codinplus31/video.js/issues/3092))
+* **html:** make thumbnail images composable ([#2572](https://github.com/Codinplus31/video.js/issues/2572))
+* **react:** make slider thumbnail composable ([#2568](https://github.com/Codinplus31/video.js/issues/2568))
+* **react:** make thumbnail composable ([#2566](https://github.com/Codinplus31/video.js/issues/2566))
+* **react:** make poster composable ([#2563](https://github.com/Codinplus31/video.js/issues/2563))
+
+### Features
+
+* about-this-player page and a help link in every player ([#2758](https://github.com/Codinplus31/video.js/issues/2758)) ([8a538a5](https://github.com/Codinplus31/video.js/commit/8a538a572945c2bb01cb79d38f420ec143a4239c))
+* add adaptive fullscreen orientation ([6ece17f](https://github.com/Codinplus31/video.js/commit/6ece17fc5fac6b90200ec68d41139b24e6f3c2cf))
+* **html:** generate VJSC skin templates ([#2546](https://github.com/Codinplus31/video.js/issues/2546)) ([70a1230](https://github.com/Codinplus31/video.js/commit/70a1230d44cbf0980253c1272a8106d6e47c0f48))
+* **html:** make thumbnail images composable ([#2572](https://github.com/Codinplus31/video.js/issues/2572)) ([6dfdce5](https://github.com/Codinplus31/video.js/commit/6dfdce50a8717573268841dbc6ed8c2b02b9108d))
+* **installation:** add versioned agent instructions ([#2948](https://github.com/Codinplus31/video.js/issues/2948)) ([a602f22](https://github.com/Codinplus31/video.js/commit/a602f220aedf9c2800983daade6ca298ada007ab))
+* **packages:** configure playback rates on the player ([#9533](https://github.com/Codinplus31/video.js/issues/9533)) ([bd4e8bf](https://github.com/Codinplus31/video.js/commit/bd4e8bf9ee82470d1641f0e093ae61fc63893eb3))
+* **packages:** handle controls before media metadata ([#2525](https://github.com/Codinplus31/video.js/issues/2525)) ([feed475](https://github.com/Codinplus31/video.js/commit/feed475b42186340162b92e3366f132729b6b0f9))
+* **packages:** share menu option state across targets ([#2528](https://github.com/Codinplus31/video.js/issues/2528)) ([4392cd6](https://github.com/Codinplus31/video.js/commit/4392cd6f7fa92dd3bb329b5a92206f5bf27a75b2))
+* **packages:** support chrome 111, firefox 121, and safari 16.4 ([#2951](https://github.com/Codinplus31/video.js/issues/2951)) ([710df96](https://github.com/Codinplus31/video.js/commit/710df96fc1bb5aceca96fa831082d61fd83af3c3))
+* **react:** make poster composable ([#2563](https://github.com/Codinplus31/video.js/issues/2563)) ([def9bf2](https://github.com/Codinplus31/video.js/commit/def9bf21d39cce091bf31c1b36651fceb8c25687))
+* **react:** make slider thumbnail composable ([#2568](https://github.com/Codinplus31/video.js/issues/2568)) ([03fdbc6](https://github.com/Codinplus31/video.js/commit/03fdbc628350b3eab41be209f3ea99a2415f4ab8))
+* **react:** make thumbnail composable ([#2566](https://github.com/Codinplus31/video.js/issues/2566)) ([55b36ab](https://github.com/Codinplus31/video.js/commit/55b36ab31a07ae54ca084bd470a61cfc760a8e13))
+* **sandbox:** fold the skins playground into the sandbox ([#2586](https://github.com/Codinplus31/video.js/issues/2586)) ([ee38b1d](https://github.com/Codinplus31/video.js/commit/ee38b1d81ee64af72a6d9859094444fe635cc332))
+* **skin:** add compat skin ([#3026](https://github.com/Codinplus31/video.js/issues/3026)) ([5d419de](https://github.com/Codinplus31/video.js/commit/5d419de6980310364c36ffe6bc131573ac8b785d))
+* **skin:** add scaffold skin ([#9251](https://github.com/Codinplus31/video.js/issues/9251)) ([c39479b](https://github.com/Codinplus31/video.js/commit/c39479baf04c906d8fe732bf1e93a5483c6b1cc4))
+* **skin:** add title display ([#2748](https://github.com/Codinplus31/video.js/issues/2748)) ([bc007bd](https://github.com/Codinplus31/video.js/commit/bc007bd9c01083507f493883b6eb047992937f79))
+* **skin:** add VJSC video skins ([#2479](https://github.com/Codinplus31/video.js/issues/2479)) ([f3640c7](https://github.com/Codinplus31/video.js/commit/f3640c7ae912fd20e2da40109228871d48c2bfc8))
+* **skin:** deepen the video scrims for legibility over light video ([#9675](https://github.com/Codinplus31/video.js/issues/9675)) ([0711762](https://github.com/Codinplus31/video.js/commit/071176227a3fa9d013494f301e8a44e38076bdeb))
+* **skin:** define Shadcn registry catalog ([#2544](https://github.com/Codinplus31/video.js/issues/2544)) ([41096c9](https://github.com/Codinplus31/video.js/commit/41096c97381975417ba504af47411231e46e807e))
+* **skin:** fade and scale the compat dialog in and out ([#9664](https://github.com/Codinplus31/video.js/issues/9664)) ([b37e85d](https://github.com/Codinplus31/video.js/commit/b37e85dc5170bcb007fa309efd09201a33635bb5))
+* **skin:** generate framework skins from registry ([#2545](https://github.com/Codinplus31/video.js/issues/2545)) ([60c7b0b](https://github.com/Codinplus31/video.js/commit/60c7b0ba5441b4463e4d04f6a71660ae24eeb345))
+* **skin:** publish the button tooltip as a registry component ([#3194](https://github.com/Codinplus31/video.js/issues/3194)) ([f16a42d](https://github.com/Codinplus31/video.js/commit/f16a42d4dbce7cc758d414284dda5366ed4d645e))
+* **skins:** add theme-scoped shadcn registries ([#2736](https://github.com/Codinplus31/video.js/issues/2736)) ([d4aecc4](https://github.com/Codinplus31/video.js/commit/d4aecc479461c3d3d02c5cb32155e7a2968d80eb))
+* **skins:** disambiguate subs with same name ([#9703](https://github.com/Codinplus31/video.js/issues/9703)) ([53a5c76](https://github.com/Codinplus31/video.js/commit/53a5c765259747a17eb7693d88f800e5fed6a852))
+* **skin:** slot the slider thumbnail image ([#2700](https://github.com/Codinplus31/video.js/issues/2700)) ([b68563f](https://github.com/Codinplus31/video.js/commit/b68563f62595e19c8bfc0d3c88147ea74c4473ef))
+* SoundCloud Audio provider ([#9524](https://github.com/Codinplus31/video.js/issues/9524)) ([fdeaafa](https://github.com/Codinplus31/video.js/commit/fdeaafa85855c5b65782aa2afe6b320ddec6bc92))
+* **vjsc:** add named render targets ([#2527](https://github.com/Codinplus31/video.js/issues/2527)) ([5b606d2](https://github.com/Codinplus31/video.js/commit/5b606d2026bb9528167f64b4b731145ceb1224f2))
+* **vjsc:** flatten [@scope](https://github.com/scope) in the packaged skins ([#2966](https://github.com/Codinplus31/video.js/issues/2966)) ([d5721ab](https://github.com/Codinplus31/video.js/commit/d5721abebbe0a0b3d8e65820c7152d302f20bb9d))
+
+
+### Bug Fixes
+
+* **core:** position and hide popups without the Popover API ([#2963](https://github.com/Codinplus31/video.js/issues/2963)) ([b0e24df](https://github.com/Codinplus31/video.js/commit/b0e24dfcbb2738dfdf0b6250880b42e5f9dd0aeb))
+* **core:** smooth time slider playback progress ([50f59a2](https://github.com/Codinplus31/video.js/commit/50f59a23f1ca2c394998ba38cc274df6154ef214))
+* **core:** smooth time slider playback progress ([6a21d0b](https://github.com/Codinplus31/video.js/commit/6a21d0b4ee6211f705edc3efbac36bc53cb8855f))
+* **element:** deliver context to consumers connected before their provider ([#9663](https://github.com/Codinplus31/video.js/issues/9663)) ([f61f17e](https://github.com/Codinplus31/video.js/commit/f61f17e8fd0961ed125500df1a21ecc5c9c5c084))
+* **element:** inherit keep-alive from shadow hosts ([#9525](https://github.com/Codinplus31/video.js/issues/9525)) ([9574e5d](https://github.com/Codinplus31/video.js/commit/9574e5d9b1fd9ae2f8298fdf06cf322b6bb47665))
+* **html:** register skin properties in the host document ([#2750](https://github.com/Codinplus31/video.js/issues/2750)) ([255e68c](https://github.com/Codinplus31/video.js/commit/255e68c8b0d5c6a53b58c38dbfeff43b4710a2e6))
+* **packages:** adopt cn for class name merging ([#2641](https://github.com/Codinplus31/video.js/issues/2641)) ([7d04745](https://github.com/Codinplus31/video.js/commit/7d04745918ac58288582d646f1fcb476dc771087))
+* **packages:** align dialog styles across skins ([#2481](https://github.com/Codinplus31/video.js/issues/2481)) ([9601006](https://github.com/Codinplus31/video.js/commit/9601006ede03d295f1c2811db6eee0f768e30bd3))
+* **packages:** align title display files ([#2949](https://github.com/Codinplus31/video.js/issues/2949)) ([6e01e66](https://github.com/Codinplus31/video.js/commit/6e01e66d51f66fd02316380222ef893dbec8b3e8))
+* **packages:** contain error dialogs in player layouts ([#2451](https://github.com/Codinplus31/video.js/issues/2451)) ([f18c59a](https://github.com/Codinplus31/video.js/commit/f18c59a159d96b2dc1b2407d3f8a0589f076cbc9))
+* **packages:** hide source-less poster images ([#2453](https://github.com/Codinplus31/video.js/issues/2453)) ([6c84721](https://github.com/Codinplus31/video.js/commit/6c8472118ab36f97381279802e1a906f828cceed))
+* **packages:** prevent menu highlight flicker ([#2969](https://github.com/Codinplus31/video.js/issues/2969)) ([461dbcf](https://github.com/Codinplus31/video.js/commit/461dbcfdde0c13481f6604cfe5632f9af6232416))
+* **packages:** show only the control name in the playback rate tooltip ([#9532](https://github.com/Codinplus31/video.js/issues/9532)) ([10e6884](https://github.com/Codinplus31/video.js/commit/10e6884c0893537e88761a1848d2ceed7d9f05fc))
+* **packages:** stabilize slider keyboard input ([#2553](https://github.com/Codinplus31/video.js/issues/2553)) ([bd9d946](https://github.com/Codinplus31/video.js/commit/bd9d9466df1a9c0cf2fb1fbbf5ed0dfe6302d2c6))
+* **skin:** animate slider progress continuously across chapters ([#2721](https://github.com/Codinplus31/video.js/issues/2721)) ([fdfb7d6](https://github.com/Codinplus31/video.js/commit/fdfb7d6a4d1310e627dad4307b97fca9868506e1))
+* **skin:** clean up title and caption alignment ([#9389](https://github.com/Codinplus31/video.js/issues/9389)) ([fe45929](https://github.com/Codinplus31/video.js/commit/fe45929069fd5f0e05f63972ca5113208ab3736a))
+* **skin:** correct scaffold parity checks and rtl controls ([#9269](https://github.com/Codinplus31/video.js/issues/9269)) ([69b53d9](https://github.com/Codinplus31/video.js/commit/69b53d9b85c96ac597e83419bc84f65ca55396ac))
+* **skin:** derive muted foreground from the foreground color ([#9558](https://github.com/Codinplus31/video.js/issues/9558)) ([0c471ab](https://github.com/Codinplus31/video.js/commit/0c471abdcceae0834b1f89d6dec7d8d1e1ea6359))
+* **skin:** harden non-video VJSC parity ([#2530](https://github.com/Codinplus31/video.js/issues/2530)) ([ed9c452](https://github.com/Codinplus31/video.js/commit/ed9c4522c9bc9025588e6fcc336a18ea1c25fdee))
+* **skin:** improve scaffold reduced-transparency controls ([#9287](https://github.com/Codinplus31/video.js/issues/9287)) ([74cf8cd](https://github.com/Codinplus31/video.js/commit/74cf8cd93f18b0dd55bd00fdb22ed2703da3a1a2))
+* **skin:** keep media text colors when merging Tailwind classes ([#9491](https://github.com/Codinplus31/video.js/issues/9491)) ([ff8d26f](https://github.com/Codinplus31/video.js/commit/ff8d26f5192678dcaf74adc86f981bf11233c27b))
+* **skin:** let the page set the video skin's aspect ratio ([#9692](https://github.com/Codinplus31/video.js/issues/9692)) ([8baab6e](https://github.com/Codinplus31/video.js/commit/8baab6e0942230ce48cad21a6847657773ff81d6))
+* **skin:** lighten the video controls backdrop ([#9585](https://github.com/Codinplus31/video.js/issues/9585)) ([ecaab1c](https://github.com/Codinplus31/video.js/commit/ecaab1c99f12c07cf3d2cae56ed524fcc86275af))
+* **skin:** misc styles fixes ([#2558](https://github.com/Codinplus31/video.js/issues/2558)) ([cd963b7](https://github.com/Codinplus31/video.js/commit/cd963b7f2cc7f4dddf225aa08afa04908ec353e7))
+* **skin:** remove dead captions and AirPlay controls from audio skins ([#9560](https://github.com/Codinplus31/video.js/issues/9560)) ([29592ba](https://github.com/Codinplus31/video.js/commit/29592baaeed98fee2a0e9d304c2e96c9e741d342))
+* **skin:** resolve blurry slider rendering ([#2705](https://github.com/Codinplus31/video.js/issues/2705)) ([2c01ec8](https://github.com/Codinplus31/video.js/commit/2c01ec87558dc77b927fb50b1836447275b3a49a))
+* **skin:** restore intrinsic height ([#2707](https://github.com/Codinplus31/video.js/issues/2707)) ([7d99a30](https://github.com/Codinplus31/video.js/commit/7d99a302847c9f60818af98b247dc39fc7332849))
+* **skin:** restore minimal audio borders ([#2816](https://github.com/Codinplus31/video.js/issues/2816)) ([2797ff1](https://github.com/Codinplus31/video.js/commit/2797ff1fcd704aac5007444bdd5c771b0fa6fdfb))
+* **skin:** restore older browser support in the compat skin ([#9699](https://github.com/Codinplus31/video.js/issues/9699)) ([bf503d0](https://github.com/Codinplus31/video.js/commit/bf503d0e2d32e4a147556e2c2168d7c27ad14924))
+* **skin:** restore settings rotation and rtl parity ([#2723](https://github.com/Codinplus31/video.js/issues/2723)) ([d31ed0f](https://github.com/Codinplus31/video.js/commit/d31ed0fec28e34df48e9865fcacc59c775b6ef6c))
+* **skin:** scale scaffold controls in fullscreen ([#9487](https://github.com/Codinplus31/video.js/issues/9487)) ([6172124](https://github.com/Codinplus31/video.js/commit/6172124f41f5ffbd455d0c8644a83454d3115ae6))
+* **skin:** separate preset token layer ([#2840](https://github.com/Codinplus31/video.js/issues/2840)) ([694dae5](https://github.com/Codinplus31/video.js/commit/694dae5da9eb51f55fac6143a609cb0f826448d5))
+* **skins:** harden shadcn registry delivery ([#2576](https://github.com/Codinplus31/video.js/issues/2576)) ([331cf7b](https://github.com/Codinplus31/video.js/commit/331cf7b5a602acd81f392bcb03d1a26c50ad1898))
+* **skin:** show compat backdrop while buffering ([#9252](https://github.com/Codinplus31/video.js/issues/9252)) ([f23b55c](https://github.com/Codinplus31/video.js/commit/f23b55c2e5133f0bf16f7704328fb5fcd6220605))
+* **skin:** show elapsed time on compact neutral players ([#9484](https://github.com/Codinplus31/video.js/issues/9484)) ([c056868](https://github.com/Codinplus31/video.js/commit/c056868a72abb9970e4b3d3610253390c6be5be2))
+* **skin:** simplify the slider styles ([#2719](https://github.com/Codinplus31/video.js/issues/2719)) ([68bcf5b](https://github.com/Codinplus31/video.js/commit/68bcf5b0ae700791bbdee4c3ec01af813225bc23))
+* **skins:** improve generated skin parity ([#2580](https://github.com/Codinplus31/video.js/issues/2580)) ([c8b7006](https://github.com/Codinplus31/video.js/commit/c8b7006a55f71b2a0d257413cac2091792278560))
+* **skin:** stack status indicators above the title ([#2875](https://github.com/Codinplus31/video.js/issues/2875)) ([79dbd2f](https://github.com/Codinplus31/video.js/commit/79dbd2fcb9a09c3cee9c666878e2d878c38018b7))
+* **skin:** style poster and slider thumbnail shadow hosts in webkit ([#2693](https://github.com/Codinplus31/video.js/issues/2693)) ([0a40865](https://github.com/Codinplus31/video.js/commit/0a40865edb1de28a933487cfb0dfffede23ba076))
+* **skin:** use finite radius to fix Safari clip-path bug ([#2679](https://github.com/Codinplus31/video.js/issues/2679)) ([4074a4a](https://github.com/Codinplus31/video.js/commit/4074a4a1989f0b83abeed549a4efb7bb0c2530fe))
+* **skin:** use shared browser targets for css builds ([#2730](https://github.com/Codinplus31/video.js/issues/2730)) ([ac228f3](https://github.com/Codinplus31/video.js/commit/ac228f3973553cb9c63f11970944ad69a88b49ad))
+* **test:** repair the e2e suites ([#2640](https://github.com/Codinplus31/video.js/issues/2640)) ([0a55663](https://github.com/Codinplus31/video.js/commit/0a55663fa0a567c8025ddcdefeae1dddd63ea027))
+* **vjsc:** clear stale generated styles during vite hmr ([#2433](https://github.com/Codinplus31/video.js/issues/2433)) ([9404be8](https://github.com/Codinplus31/video.js/commit/9404be801bcca2b0c6ac6ca832cb2752cf3edd99))
+* **vjsc:** merge classes using custom theme tokens ([#2738](https://github.com/Codinplus31/video.js/issues/2738)) ([75d4c4b](https://github.com/Codinplus31/video.js/commit/75d4c4ba70653c8eb1bdb490853cd775987e8a63))
+* **vjsc:** pin one tailwind and lightningcss for the workspace ([#2971](https://github.com/Codinplus31/video.js/issues/2971)) ([6ae504e](https://github.com/Codinplus31/video.js/commit/6ae504e5d692b70e6df86ed06601d3d92f422d16))
+
+
+### Code Refactoring
+
+* **packages:** rename the minimal skin to neutral ([#3092](https://github.com/Codinplus31/video.js/issues/3092)) ([1d1eafc](https://github.com/Codinplus31/video.js/commit/1d1eafc022f78135a292035bc58fdb4befb6401e))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * @videojs/core bumped to 11.0.0
+    * @videojs/element bumped to 11.0.0
+    * @videojs/icons bumped to 11.0.0
+    * @videojs/installation bumped to 11.0.0
+    * @videojs/utils bumped to 11.0.0
+
 ## [10.3.0](https://github.com/videojs/video.js/compare/@videojs/skins@10.2.0...@videojs/skins@10.3.0) (2026-11-03)
 
 

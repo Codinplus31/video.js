@@ -1,5 +1,33 @@
 # Changelog
 
+## [11.0.0](https://github.com/Codinplus31/video.js/compare/@videojs/wistia-video@10.3.0...@videojs/wistia-video@11.0.0) (2026-11-11)
+
+
+### Features
+
+* add adaptive fullscreen orientation ([6ece17f](https://github.com/Codinplus31/video.js/commit/6ece17fc5fac6b90200ec68d41139b24e6f3c2cf))
+* **media:** add resolveAdapterType and resolveMimeType ([#3024](https://github.com/Codinplus31/video.js/issues/3024)) ([a77010c](https://github.com/Codinplus31/video.js/commit/a77010c77ff4971a9f7f1c43d5c24c20ee67d505))
+* **mux-data:** report framework and engine in the player software name ([#9577](https://github.com/Codinplus31/video.js/issues/9577)) ([d84b573](https://github.com/Codinplus31/video.js/commit/d84b573df447824aded5590b255bcc70e372472a))
+
+
+### Bug Fixes
+
+* **media:** recognize empty placeholders from another package copy ([#9667](https://github.com/Codinplus31/video.js/issues/9667)) ([2c88e68](https://github.com/Codinplus31/video.js/commit/2c88e684c8ecd2efe5aa67905daf1b1bc4dbb232))
+* **packages:** fill the buffered bar for embed adapters ([#9679](https://github.com/Codinplus31/video.js/issues/9679)) ([2abaaef](https://github.com/Codinplus31/video.js/commit/2abaaef6cb6970e8ab572dc11731b0fa92afe087))
+
+
+### Performance Improvements
+
+* **site:** faster docs dev server start ([#2698](https://github.com/Codinplus31/video.js/issues/2698)) ([33d3887](https://github.com/Codinplus31/video.js/commit/33d38873ed5337a5695eaa426a5ebfbea61356d2))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @videojs/media bumped to 11.0.0
+    * @videojs/utils bumped to 11.0.0
+
 ## [10.3.0](https://github.com/videojs/video.js/compare/@videojs/wistia-video@10.2.0...@videojs/wistia-video@10.3.0) (2026-11-03)
 
 

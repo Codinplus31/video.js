@@ -1,5 +1,37 @@
 # Changelog
 
+## [11.0.0](https://github.com/Codinplus31/video.js/compare/@videojs/icons@10.3.0...@videojs/icons@11.0.0) (2026-11-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* **packages:** rename the minimal skin to neutral ([#3092](https://github.com/Codinplus31/video.js/issues/3092))
+
+### Features
+
+* add adaptive fullscreen orientation ([6ece17f](https://github.com/Codinplus31/video.js/commit/6ece17fc5fac6b90200ec68d41139b24e6f3c2cf))
+* **skin:** add compat skin ([#3026](https://github.com/Codinplus31/video.js/issues/3026)) ([5d419de](https://github.com/Codinplus31/video.js/commit/5d419de6980310364c36ffe6bc131573ac8b785d))
+* **skin:** add scaffold skin ([#9251](https://github.com/Codinplus31/video.js/issues/9251)) ([c39479b](https://github.com/Codinplus31/video.js/commit/c39479baf04c906d8fe732bf1e93a5483c6b1cc4))
+* **vjsc:** add named render targets ([#2527](https://github.com/Codinplus31/video.js/issues/2527)) ([5b606d2](https://github.com/Codinplus31/video.js/commit/5b606d2026bb9528167f64b4b731145ceb1224f2))
+
+
+### Bug Fixes
+
+* **icons:** optically center the compat play icon ([#3146](https://github.com/Codinplus31/video.js/issues/3146)) ([04d29bc](https://github.com/Codinplus31/video.js/commit/04d29bc44d6275396c22618613546b00f55fadb4))
+* **skins:** harden shadcn registry delivery ([#2576](https://github.com/Codinplus31/video.js/issues/2576)) ([331cf7b](https://github.com/Codinplus31/video.js/commit/331cf7b5a602acd81f392bcb03d1a26c50ad1898))
+
+
+### Code Refactoring
+
+* **packages:** rename the minimal skin to neutral ([#3092](https://github.com/Codinplus31/video.js/issues/3092)) ([1d1eafc](https://github.com/Codinplus31/video.js/commit/1d1eafc022f78135a292035bc58fdb4befb6401e))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @videojs/utils bumped to 11.0.0
+
 ## [10.3.0](https://github.com/videojs/video.js/compare/@videojs/icons@10.2.0...@videojs/icons@10.3.0) (2026-11-03)
 
 

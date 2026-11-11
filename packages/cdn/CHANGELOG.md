@@ -1,5 +1,65 @@
 # Changelog
 
+## [11.0.0](https://github.com/Codinplus31/video.js/compare/@videojs/cdn@10.3.0...@videojs/cdn@11.0.0) (2026-11-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* **packages:** rename the minimal skin to neutral ([#3092](https://github.com/Codinplus31/video.js/issues/3092))
+
+### Features
+
+* add adaptive fullscreen orientation ([6ece17f](https://github.com/Codinplus31/video.js/commit/6ece17fc5fac6b90200ec68d41139b24e6f3c2cf))
+* **cdn:** open every entry bundle with a Video.js banner ([#2762](https://github.com/Codinplus31/video.js/issues/2762)) ([21efa0a](https://github.com/Codinplus31/video.js/commit/21efa0a0221ed5e1620516ce9ad28c1951d3d568))
+* **cdn:** publish one ui bundle per @videojs/html ui definition ([#2887](https://github.com/Codinplus31/video.js/issues/2887)) ([996df8d](https://github.com/Codinplus31/video.js/commit/996df8dfe445a9a1dec02886f28003a217b6b2b3))
+* Dailymotion video provider ([#9512](https://github.com/Codinplus31/video.js/issues/9512)) ([6f24264](https://github.com/Codinplus31/video.js/commit/6f24264951e8f9d5489cccfc9de6609e6a72bef3))
+* **installation:** add versioned agent instructions ([#2948](https://github.com/Codinplus31/video.js/issues/2948)) ([a602f22](https://github.com/Codinplus31/video.js/commit/a602f220aedf9c2800983daade6ca298ada007ab))
+* **installation:** link native media fallback to videojs.org/help ([#9381](https://github.com/Codinplus31/video.js/issues/9381)) ([2c90308](https://github.com/Codinplus31/video.js/commit/2c903082e02f55d54fe4a48efa710b11778f29d3))
+* **mixcloud-audio:** add the Mixcloud audio provider ([#9649](https://github.com/Codinplus31/video.js/issues/9649)) ([f1b1354](https://github.com/Codinplus31/video.js/commit/f1b135497252fa5b276688bfe9dfec403f77345b))
+* **packages:** support chrome 111, firefox 121, and safari 16.4 ([#2951](https://github.com/Codinplus31/video.js/issues/2951)) ([710df96](https://github.com/Codinplus31/video.js/commit/710df96fc1bb5aceca96fa831082d61fd83af3c3))
+* **playerjs-video:** add player.js embed media ([#9247](https://github.com/Codinplus31/video.js/issues/9247)) ([b56d02d](https://github.com/Codinplus31/video.js/commit/b56d02d33bdda01f1aaec1c5ada893002932ce5f))
+* **skin:** add compat skin ([#3026](https://github.com/Codinplus31/video.js/issues/3026)) ([5d419de](https://github.com/Codinplus31/video.js/commit/5d419de6980310364c36ffe6bc131573ac8b785d))
+* **skin:** add scaffold skin ([#9251](https://github.com/Codinplus31/video.js/issues/9251)) ([c39479b](https://github.com/Codinplus31/video.js/commit/c39479baf04c906d8fe732bf1e93a5483c6b1cc4))
+* SoundCloud Audio provider ([#9524](https://github.com/Codinplus31/video.js/issues/9524)) ([fdeaafa](https://github.com/Codinplus31/video.js/commit/fdeaafa85855c5b65782aa2afe6b320ddec6bc92))
+
+
+### Bug Fixes
+
+* **packages:** name Video.js 10 in npm descriptions and keywords ([#2995](https://github.com/Codinplus31/video.js/issues/2995)) ([8fda9a3](https://github.com/Codinplus31/video.js/commit/8fda9a36bede5cf92d446e25e56a96625cd60bc9))
+
+
+### Code Refactoring
+
+* **packages:** rename the minimal skin to neutral ([#3092](https://github.com/Codinplus31/video.js/issues/3092)) ([1d1eafc](https://github.com/Codinplus31/video.js/commit/1d1eafc022f78135a292035bc58fdb4befb6401e))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * @videojs/cloudflare-video bumped to 11.0.0
+    * @videojs/core bumped to 11.0.0
+    * @videojs/dailymotion-video bumped to 11.0.0
+    * @videojs/dash-video bumped to 11.0.0
+    * @videojs/google-cast bumped to 11.0.0
+    * @videojs/hlsjs-video bumped to 11.0.0
+    * @videojs/html bumped to 11.0.0
+    * @videojs/mixcloud-audio bumped to 11.0.0
+    * @videojs/mux-audio bumped to 11.0.0
+    * @videojs/mux-data bumped to 11.0.0
+    * @videojs/mux-video bumped to 11.0.0
+    * @videojs/native-hls-video bumped to 11.0.0
+    * @videojs/playerjs-video bumped to 11.0.0
+    * @videojs/shaka-video bumped to 11.0.0
+    * @videojs/soundcloud-audio bumped to 11.0.0
+    * @videojs/spf bumped to 11.0.0
+    * @videojs/spotify-audio bumped to 11.0.0
+    * @videojs/tiktok-video bumped to 11.0.0
+    * @videojs/twitch-video bumped to 11.0.0
+    * @videojs/vimeo-video bumped to 11.0.0
+    * @videojs/wistia-video bumped to 11.0.0
+    * @videojs/youtube-video bumped to 11.0.0
+
 ## [10.3.0](https://github.com/videojs/video.js/compare/@videojs/cdn@10.2.0...@videojs/cdn@10.3.0) (2026-11-03)
 
 

@@ -1,5 +1,73 @@
 # Changelog
 
+## [11.0.0](https://github.com/Codinplus31/video.js/compare/@videojs/media@10.3.0...@videojs/media@11.0.0) (2026-11-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* **react,html:** make every stable type importable from the framework packages ([#3082](https://github.com/Codinplus31/video.js/issues/3082))
+* **packages:** attach extensions at the player ([#2880](https://github.com/Codinplus31/video.js/issues/2880))
+* **media:** tidy text track state ([#3057](https://github.com/Codinplus31/video.js/issues/3057))
+* **core:** align player store API ([#3012](https://github.com/Codinplus31/video.js/issues/3012))
+* **packages:** adapter renaming ([#2602](https://github.com/Codinplus31/video.js/issues/2602))
+* **packages:** MediaComponent => MediaExtension ([#2601](https://github.com/Codinplus31/video.js/issues/2601))
+* **packages:** extension renaming ([#2600](https://github.com/Codinplus31/video.js/issues/2600))
+* **packages:** playback adapters packages ([#2567](https://github.com/Codinplus31/video.js/issues/2567))
+
+### Features
+
+* add adaptive fullscreen orientation ([6ece17f](https://github.com/Codinplus31/video.js/commit/6ece17fc5fac6b90200ec68d41139b24e6f3c2cf))
+* **core:** add a text cues feature ([#9611](https://github.com/Codinplus31/video.js/issues/9611)) ([091226e](https://github.com/Codinplus31/video.js/commit/091226ec2cdb45d298f4c7b071b194e439692979))
+* **core:** copy app captions into the media ([#9617](https://github.com/Codinplus31/video.js/issues/9617)) ([b6d0199](https://github.com/Codinplus31/video.js/commit/b6d0199b1f1c2b129f34b849a683510f3bce6392))
+* **core:** hide playback rate controls when the media has no playback rate ([#9603](https://github.com/Codinplus31/video.js/issues/9603)) ([6f5e053](https://github.com/Codinplus31/video.js/commit/6f5e053c5ec488f9adc33781d2be682979e826a8))
+* **core:** show a pending autoplay as starting playback ([#9609](https://github.com/Codinplus31/video.js/issues/9609)) ([6f56667](https://github.com/Codinplus31/video.js/commit/6f566672ffd095301f9bcef9ecccdbdc1ebe536f))
+* Dailymotion video provider ([#9512](https://github.com/Codinplus31/video.js/issues/9512)) ([6f24264](https://github.com/Codinplus31/video.js/commit/6f24264951e8f9d5489cccfc9de6609e6a72bef3))
+* **media:** add data cues and cue values to the text-track contract ([#9610](https://github.com/Codinplus31/video.js/issues/9610)) ([7817ac4](https://github.com/Codinplus31/video.js/commit/7817ac455f9685b4300b6bfda0e6b80b01e163cb))
+* **media:** add removable text tracks for DOM media ([#9616](https://github.com/Codinplus31/video.js/issues/9616)) ([274cc73](https://github.com/Codinplus31/video.js/commit/274cc73d441ba6ec8b5610d6d028376153cc3d77))
+* **media:** add resolveAdapterType and resolveMimeType ([#3024](https://github.com/Codinplus31/video.js/issues/3024)) ([a77010c](https://github.com/Codinplus31/video.js/commit/a77010c77ff4971a9f7f1c43d5c24c20ee67d505))
+* **mixcloud-audio:** add the Mixcloud audio provider ([#9649](https://github.com/Codinplus31/video.js/issues/9649)) ([f1b1354](https://github.com/Codinplus31/video.js/commit/f1b135497252fa5b276688bfe9dfec403f77345b))
+* **mux-data:** report framework and engine in the player software name ([#9577](https://github.com/Codinplus31/video.js/issues/9577)) ([d84b573](https://github.com/Codinplus31/video.js/commit/d84b573df447824aded5590b255bcc70e372472a))
+* **packages:** configure playback rates on the player ([#9533](https://github.com/Codinplus31/video.js/issues/9533)) ([bd4e8bf](https://github.com/Codinplus31/video.js/commit/bd4e8bf9ee82470d1641f0e093ae61fc63893eb3))
+* **packages:** handle controls before media metadata ([#2525](https://github.com/Codinplus31/video.js/issues/2525)) ([feed475](https://github.com/Codinplus31/video.js/commit/feed475b42186340162b92e3366f132729b6b0f9))
+* **packages:** release Video.js 10.0.0 as stable ([#3058](https://github.com/Codinplus31/video.js/issues/3058)) ([37477fc](https://github.com/Codinplus31/video.js/commit/37477fc187f36fc2ab3cbc0db7c1b2d3fc6bcca9))
+* SoundCloud Audio provider ([#9524](https://github.com/Codinplus31/video.js/issues/9524)) ([fdeaafa](https://github.com/Codinplus31/video.js/commit/fdeaafa85855c5b65782aa2afe6b320ddec6bc92))
+* **spf:** send credentials with hls requests for crossorigin="use-credentials" ([#2870](https://github.com/Codinplus31/video.js/issues/2870)) ([897901b](https://github.com/Codinplus31/video.js/commit/897901b88359dca0dc3e59fcecd766cb59f8fe24))
+
+
+### Bug Fixes
+
+* **core:** smooth time slider playback progress ([50f59a2](https://github.com/Codinplus31/video.js/commit/50f59a23f1ca2c394998ba38cc274df6154ef214))
+* **core:** smooth time slider playback progress ([6a21d0b](https://github.com/Codinplus31/video.js/commit/6a21d0b4ee6211f705edc3efbac36bc53cb8855f))
+* **element:** inherit keep-alive from shadow hosts ([#9525](https://github.com/Codinplus31/video.js/issues/9525)) ([9574e5d](https://github.com/Codinplus31/video.js/commit/9574e5d9b1fd9ae2f8298fdf06cf322b6bb47665))
+* **media:** keep one Mux Data view per viewing across loadstarts ([#2565](https://github.com/Codinplus31/video.js/issues/2565)) ([722ba02](https://github.com/Codinplus31/video.js/commit/722ba02ebf7d25e36035472f5cb0a3d7d7477796))
+* **media:** recognize empty placeholders from another package copy ([#9667](https://github.com/Codinplus31/video.js/issues/9667)) ([2c88e68](https://github.com/Codinplus31/video.js/commit/2c88e684c8ecd2efe5aa67905daf1b1bc4dbb232))
+* **packages:** fill the buffered bar for embed adapters ([#9679](https://github.com/Codinplus31/video.js/issues/9679)) ([2abaaef](https://github.com/Codinplus31/video.js/commit/2abaaef6cb6970e8ab572dc11731b0fa92afe087))
+* Track disableRemotePlayback Preference ([#1889](https://github.com/Codinplus31/video.js/issues/1889)) ([0eadc6d](https://github.com/Codinplus31/video.js/commit/0eadc6d77a0df2629f25e5684af35e89ad5a305f))
+
+
+### Performance Improvements
+
+* **site:** faster docs dev server start ([#2698](https://github.com/Codinplus31/video.js/issues/2698)) ([33d3887](https://github.com/Codinplus31/video.js/commit/33d38873ed5337a5695eaa426a5ebfbea61356d2))
+
+
+### Code Refactoring
+
+* **core:** align player store API ([#3012](https://github.com/Codinplus31/video.js/issues/3012)) ([d1f57f8](https://github.com/Codinplus31/video.js/commit/d1f57f8ea733d10247b8e9bd9f8b5577e52ed66b))
+* **media:** tidy text track state ([#3057](https://github.com/Codinplus31/video.js/issues/3057)) ([614b77d](https://github.com/Codinplus31/video.js/commit/614b77dce7d9a3ed60baa1b0e2af854c8c8d865b))
+* **packages:** adapter renaming ([#2602](https://github.com/Codinplus31/video.js/issues/2602)) ([b964889](https://github.com/Codinplus31/video.js/commit/b964889fdf68a4cdaf4686ef96bb0e8c8f2f4abd))
+* **packages:** attach extensions at the player ([#2880](https://github.com/Codinplus31/video.js/issues/2880)) ([9b6675e](https://github.com/Codinplus31/video.js/commit/9b6675e3cfe50e3b54f4d4d07a563a4fdc712291))
+* **packages:** extension renaming ([#2600](https://github.com/Codinplus31/video.js/issues/2600)) ([7075d1f](https://github.com/Codinplus31/video.js/commit/7075d1f9e111d6d0eb70f319c6d05beacb88d833))
+* **packages:** MediaComponent =&gt; MediaExtension ([#2601](https://github.com/Codinplus31/video.js/issues/2601)) ([eebe675](https://github.com/Codinplus31/video.js/commit/eebe675408e50bcd3893d01f56dbb7a92a2fb5d1))
+* **packages:** playback adapters packages ([#2567](https://github.com/Codinplus31/video.js/issues/2567)) ([12b08e3](https://github.com/Codinplus31/video.js/commit/12b08e3b0c3c07e5948f74a8cf6fce96c8b8eba7))
+* **react,html:** make every stable type importable from the framework packages ([#3082](https://github.com/Codinplus31/video.js/issues/3082)) ([53e5ce9](https://github.com/Codinplus31/video.js/commit/53e5ce9a5b78d123f77f843a81fad3ac5d82f8f1))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @videojs/utils bumped to 11.0.0
+
 ## [10.3.0](https://github.com/videojs/video.js/compare/@videojs/media@10.2.0...@videojs/media@10.3.0) (2026-11-03)
 
 
